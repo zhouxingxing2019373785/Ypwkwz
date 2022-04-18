@@ -1,0 +1,41 @@
+server:
+  port: 8080 #端口
+#servlet:
+#  context-path: /main
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ypwk?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: root
+
+
+#  thymeleaf:
+#    cache: false
+#    encoding: UTF-8
+#    mode: HTML
+#    prefix: classpath:/templates/
+#    suffix: .html
+#    check-template-location: true
+#    servlet:
+#      content-type: text/html
+#
+#  devtools:
+#    restart:
+#      enabled: true
+#  shiro:
+#    conf:
+#      domain:
+#      cookiePath: /
+#      successUrl: /index
+#      loginView: /login
+#      openToken: false
+#      sessionTimeout: 1800000
+#      algorithmName: md5
+#      hashIterations: 5
+#
+#      sysanon:
+#        - /login
+#        - /regist
+#
+#      allowedOrigins:
